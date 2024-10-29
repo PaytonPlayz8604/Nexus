@@ -30,11 +30,11 @@
         <i class="fa fa-cogs fa-5x" style="color: #00aaff;"></i>
         <h1>Site Maintenance</h1>
         <p>We're working on improvements. Please check back soon.</p>
+        <p>&mdash; The Nexus Team</p>
         <div class="countdown-container">
             <i class="fa fa-hourglass-half"></i>
             <span id="time"></span>
         </div>
-        <p>&mdash; The Nexus Team</p>
     </main>
     <footer>
         <p>&copy; 2024 Nexus. All rights reserved.</p>
@@ -42,9 +42,12 @@
     <script src="Scripts/script.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            // Set a shorter countdown for testing
-            let countdownDate = new Date();
-            countdownDate.setMinutes(countdownDate.getMinutes() + 2);
+            // Set the start time to 8:06 AM EST
+            const startTime = new Date('October 29, 2024 08:06:00 EST');
+
+            // Calculate the end time 2 weeks from the start time
+            let countdownDate = new Date(startTime);
+            countdownDate.setDate(countdownDate.getDate() + 14);
 
             function updateCountdown() {
                 let now = new Date().getTime();
