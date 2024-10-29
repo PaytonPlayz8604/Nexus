@@ -88,9 +88,44 @@ a:hover {
     flex-wrap: wrap;
 }
 
-.product-preview div {
+.product-item {
+    position: relative;
     margin: 20px;
     text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.product-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.product-info h3, .product-info p {
+    margin: 10px 0;
+}
+
+.product-info .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00aaff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.product-info .btn:hover {
+    background-color: #0088cc;
 }
 
 footer {
