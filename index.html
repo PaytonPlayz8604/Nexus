@@ -7,13 +7,33 @@
     <link rel="stylesheet" href="Styles/style.css">
     <link rel="icon" href="Images/NexusLogo.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .countdown-container {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #00aaff;
+            color: #fff;
+            border-radius: 30px;
+            padding: 20px;
+            font-size: 1.2em;
+            margin: 20px auto;
+            text-align: center;
+        }
+        .countdown-container i {
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
     <main class="maintenance">
         <i class="fa fa-cogs fa-5x" style="color: #00aaff;"></i>
         <h1>Site Maintenance</h1>
         <p>We're working on improvements. Please check back soon.</p>
-        <div id="countdown"><i class="fa fa-hourglass-half"></i> <span id="time"></span></div>
+        <div class="countdown-container">
+            <i class="fa fa-hourglass-half"></i>
+            <span id="time"></span>
+        </div>
         <p>&mdash; The Nexus Team</p>
     </main>
     <footer>
@@ -22,12 +42,9 @@
     <script src="Scripts/script.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            // Set the start time to 11 PM EST
-            const startTime = new Date('October 28, 2024 23:00:00 EST');
-
-            // Calculate the end time 2 weeks from the start time
-            let countdownDate = new Date(startTime);
-            countdownDate.setDate(countdownDate.getDate() + 14);
+            // Set a shorter countdown for testing
+            let countdownDate = new Date();
+            countdownDate.setMinutes(countdownDate.getMinutes() + 2);
 
             function updateCountdown() {
                 let now = new Date().getTime();
@@ -39,7 +56,7 @@
                 let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                 document.getElementById("time").innerHTML = 
-                    days + " day(s) " + hours + " hour(s) " + minutes + " minute(s) " + seconds + " second(s) ";
+                    days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
                 if (distance < 0) {
                     document.getElementById("time").innerHTML = "Maintenance completed!";
