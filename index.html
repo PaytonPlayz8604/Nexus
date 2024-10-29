@@ -20,8 +20,10 @@
             margin: 20px auto;
             text-align: center;
         }
-        .countdown-container i {
+        .custom-hourglass {
             margin-right: 10px;
+            color: #fff;
+            margin-bottom: 0px;
         }
     </style>
 </head>
@@ -32,7 +34,7 @@
         <p>We're working on improvements. Please check back soon.</p>
         <p>&mdash; The Nexus Team</p>
         <div class="countdown-container">
-            <i class="fa fa-hourglass-half"></i>
+            <i class="fa fa-hourglass-half custom-hourglass"></i>
             <span id="time"></span>
         </div>
     </main>
@@ -43,7 +45,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             // Set the start time to 8:06 AM EST
-            const startTime = new Date('October 28, 2024 08:06:00 EST');
+            const startTime = new Date('October 29, 2024 08:06:00 EST');
 
             // Calculate the end time 2 weeks from the start time
             let countdownDate = new Date(startTime);
