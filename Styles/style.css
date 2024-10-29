@@ -148,3 +148,27 @@ footer {
     padding: 20px 0;
     width: 100%;
 }
+
+/* Maintenance Page Styles */
+.maintenance {
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    margin: auto;
+}
+
+.maintenance i {
+    color: #00aaff;
+    margin-bottom: 20px;
+}
+
+.maintenance h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.maintenance p {
+    font-size: 1.2em;
+}
