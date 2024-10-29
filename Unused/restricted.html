@@ -21,7 +21,7 @@
             text-align: center;
         }
         i {
-            font-size: 5em !important; /* Increased size */
+            font-size: 10em; /* Increased size */
             color: #00aaff;
             margin-bottom: 20px;
         }
@@ -52,5 +52,12 @@
     <h1>Page Locked</h1>
     <p>You do not have access to this page. Sorry for the inconvenience.</p>
     <a href="index.html" class="btn">Go Home</a>
+
+    <script>
+        // Redirect users to the home page after 5 seconds
+        setTimeout(function() {
+            window.location.href = "index.html";
+        }, 5000);
+    </script>
 </body>
 </html>
