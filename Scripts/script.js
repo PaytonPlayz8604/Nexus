@@ -10,4 +10,17 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-console.log("Thank you for visiting our site! Please refrain from pasting any code below or copying any of our code. \nThanks, \nThe Nexus Team.")
+console.log(
+    `%c
+    ╔═════════════════════════════════════════════════════════╗
+    ║                                                         ║
+    ║   Thank you for visiting the Nexus site!                ║
+    ║   We kindly ask you not to paste or copy our code.      ║
+    ║                                                         ║
+    ║                Enjoy your stay!                         ║
+    ║                      — The Nexus Team                   ║
+    ║                                                         ║
+    ╚═════════════════════════════════════════════════════════╝
+    `,
+    'color: #00aaff; font-weight: bold;'
+);
