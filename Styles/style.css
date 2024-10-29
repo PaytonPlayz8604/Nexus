@@ -172,3 +172,41 @@ footer {
 .maintenance p {
     font-size: 1.2em;
 }
+
+/* 404 Page Styles */
+.not-found {
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    margin: auto;
+}
+
+.not-found i {
+    color: #00aaff;
+    margin-bottom: 20px;
+}
+
+.not-found h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.not-found p {
+    font-size: 1.2em;
+}
+
+.not-found .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00aaff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.not-found .btn:hover {
+    background-color: #0088cc;
+}
