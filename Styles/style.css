@@ -1,7 +1,7 @@
 body {
     font-family: 'Syne', sans-serif;
-    background-color: #1a1a1a;
-    color: #e0e0e0;
+    background-color: #ffffff;
+    color: #000000;
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,7 +11,7 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 10px 20px;
     background-color: #333;
@@ -26,6 +26,7 @@ nav ul {
     display: flex;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 nav ul li {
@@ -33,7 +34,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #e0e0e0;
+    color: #ffffff;
     text-decoration: none;
     padding: 10px 15px;
     display: block;
@@ -47,10 +48,12 @@ nav ul ul {
     display: none;
     position: absolute;
     top: 100%;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: #444;
     padding: 0;
     list-style: none;
+    text-align: center;
 }
 
 nav ul ul li a {
@@ -63,16 +66,16 @@ nav ul ul li a:hover {
 }
 
 h1, h2 {
-    color: #00aaff;
+    color: #000000;
 }
 
 a {
-    color: #00aaff;
+    color: #000000;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #0088cc;
+    color: #000000;
 }
 
 .main-content img {
@@ -107,8 +110,8 @@ a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #e0e0e0;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000000;
     padding: 20px;
     border-radius: 10px;
 }
@@ -139,8 +142,8 @@ main {
 }
 
 footer {
-    background-color: #1a1a1a;
-    color: #e0e0e0;
+    background-color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 20px 0;
     width: 100%;
