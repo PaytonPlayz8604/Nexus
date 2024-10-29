@@ -58,3 +58,37 @@ nav ul ul li a {
 nav ul ul li a:hover {
     background-color: #555;
 }
+
+h1, h2 {
+    color: #00aaff;
+}
+
+a {
+    color: #00aaff;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0088cc;
+}
+
+.main-content img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.main-content img:hover {
+    transform: scale(1.05);
+}
+
+.product-preview {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-preview div {
+    margin: 20px;
+    text-align: center;
+}
