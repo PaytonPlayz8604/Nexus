@@ -50,7 +50,7 @@ nav ul li a {
 nav ul li a:hover {
     color: #ffffff;
     background-color: #00aaff;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 nav ul ul {
@@ -58,7 +58,7 @@ nav ul ul {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #00aaff;
+    background-color: #ffffff;
     padding: 0;
     list-style: none;
     text-align: left;
@@ -74,6 +74,7 @@ nav ul li:hover ul {
 nav ul ul li a {
     color: #000000;
     padding: 10px;
+    transition: all 0.3s ease;
 }
 
 nav ul ul li a:hover {
