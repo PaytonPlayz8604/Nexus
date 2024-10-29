@@ -60,35 +60,6 @@
         .not-found .btn:hover {
             background-color: #0088cc;
         }
-        .nexus-fact {
-            text-align: center;
-            max-width: 600px;
-            font-size: 0.8em;
-            color: #000;
-            border: 1px solid #ddd;
-            padding: 20px;
-            margin: 300px auto 20px auto;
-            border-radius: 10px;
-            background-color: #f9f9f9;
-        }
-        .nexus-fact h2 {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.2em;
-            margin-bottom: 10px;
-        }
-        .nexus-fact h2 i {
-            margin-right: 10px;
-            color: #00aaff;
-        }
-        footer {
-            background-color: #ffffff;
-            color: #000000;
-            text-align: center;
-            padding: 20px 0;
-            width: 100%;
-        }
     </style>
 </head>
 <body>
@@ -98,28 +69,10 @@
         <p>Looks like you’ve strayed off the path. This page doesn’t exist in our network. Let’s get you back to where you belong.</p>
         <a href="index.html" class="btn">Go Home</a>
     </main>
-    <div class="nexus-fact">
-        <h2><i class="fa fa-info-circle"></i> Did You Know?</h2>
-        <p id="fact"></p>
-    </div>
     <footer>
         <p>&copy; 2024 Nexus. All rights reserved.</p>
     </footer>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const facts = [
-                "Nexus is a business that aims to change the daily life of everyone, making it more organized and simple.",
-                "The NexusCam has many features, some of which are night vision and HD resolution!",
-                "Nexus currently offers seven products!",
-                "The NexusScooter has integrated GPS.",
-                "The NexusVR has some amazing features, such as 4K resolution and ultra-low latency."
-            ];
-            const factElement = document.getElementById('fact');
-            const randomFact = facts[Math.floor(Math.random() * facts.length)];
-            factElement.textContent = randomFact;
-        });
-    </script>
     <script src="Scripts/script.js"></script>
 </body>
 </html>
