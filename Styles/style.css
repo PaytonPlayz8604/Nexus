@@ -99,11 +99,16 @@ a:hover {
     margin: 40px 20px;
 }
 
+.intro hr {
+    border: 1px solid #000000;
+    margin: 20px 0;
+}
+
 .product-preview {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 40px; /* Added extra margin to move products down */
 }
 
 .product-item {
