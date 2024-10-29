@@ -10,4 +10,4 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-console.log("Thank you for visiting our site! Please refrain from pasting any code below or copying any of our code. \nThanks, Nexus Management Team.")
+console.log("Thank you for visiting our site! Please refrain from pasting any code below or copying any of our code. \nThanks, \nThe Nexus Team.")
