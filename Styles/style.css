@@ -36,10 +36,6 @@ nav ul li a {
     display: block;
 }
 
-nav ul li a i {
-    margin-right: 5px;
-}
-
 nav ul li:hover ul {
     display: block;
 }
@@ -63,4 +59,54 @@ nav ul ul li a:hover {
     background-color: #555;
 }
 
-h1, h
+h1, h2 {
+    color: #00aaff;
+}
+
+a {
+    color: #00aaff;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0088cc;
+}
+
+.main-content img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.main-content img:hover {
+    transform: scale(1.05);
+}
+
+.product-preview {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-preview div {
+    margin: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #00aaff;
+}
+
+footer a:hover {
+    color: #0088cc;
+}
