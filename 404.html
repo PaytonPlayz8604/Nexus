@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 Not Found - Nexus</title>
-    <link rel="icon" href="Images/NexusLogo.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="Images/NexusLogo.png" type="image/png">
     <style>
         body {
             font-family: 'Syne', sans-serif;
@@ -17,123 +17,12 @@
             flex-direction: column;
             min-height: 100vh;
         }
-        header {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 10px 20px;
-            background-color: #333;
-        }
-        .logo img {
-            height: 50px;
-        }
-        nav ul {
-            list-style: none;
-            display: flex;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        nav ul li {
-            position: relative;
-        }
-        nav ul li a {
-            color: #ffffff;
-            text-decoration: none;
-            padding: 10px 15px;
-            display: block;
-        }
-        nav ul li:hover ul {
-            display: block;
-        }
-        nav ul ul {
-            display: none;
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            background-color: #444;
-            padding: 0;
-            list-style: none;
-            text-align: center;
-        }
-        nav ul ul li a {
-            padding: 10px;
-            width: 150px;
-        }
-        nav ul ul li a:hover {
-            background-color: #555;
-        }
-        h1, h2 {
-            color: #000000;
-        }
-        a {
-            color: #000000;
-            transition: color 0.3s ease;
-        }
-        a:hover {
-            color: #000000;
-        }
-        .main-content img {
-            max-width: 100%;
-            height: auto;
-            transition: transform 0.3s ease;
-        }
-        .main-content img:hover {
-            transform: scale(1.05);
-        }
-        .product-preview {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-        .product-item {
-            position: relative;
-            margin: 20px;
-            text-align: center;
-        }
-        .product-item img {
-            width: 100%;
-            height: auto;
-        }
-        .product-info {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: #ffffff;
-            color: #000000;
-            padding: 20px;
-            border-radius: 10px;
-        }
-        .product-info h3, .product-info p {
-            margin: 10px 0;
-        }
-        .product-info .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #00aaff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-        .product-info .btn:hover {
-            background-color: #0088cc;
-        }
         main {
             flex: 1;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-        }
-        footer {
-            background-color: #ffffff;
-            color: #000000;
-            text-align: center;
-            padding: 20px 0;
-            width: 100%;
         }
         .not-found {
             text-align: center;
@@ -171,6 +60,18 @@
         .not-found .btn:hover {
             background-color: #0088cc;
         }
+        .nexus-fact {
+            margin-top: 20px;
+            text-align: center;
+            max-width: 600px;
+        }
+        footer {
+            background-color: #ffffff;
+            color: #000000;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
@@ -179,12 +80,33 @@
         <h1>Nexus Navigation Error</h1>
         <p>Looks like you’ve strayed off the path. This page doesn’t exist in our network. Let’s get you back to where you belong.</p>
         <a href="index.html" class="btn">Go Home</a>
+        <div class="nexus-fact">
+            <h2>Did You Know?</h2>
+            <p id="fact"></p>
+        </div>
     </main>
 
     <footer>
         <p>&copy; 2024 Nexus. All rights reserved.</p>
     </footer>
 
-    <script src="Scripts/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const facts = [
+                "Nexus is a business that aims to change the daily life of everyone, making it more organized and simple.",
+                "Nexus currently offers SEVEN things: NexusWatch, NexusCharger, NexusTracker, NexusBuds, NexusVR, NexusScooter, and NexusCam.",
+                "The NexusBuds are long-lasting, comfort engineered, wireless premium earbuds with active noise cancelation and touch controls, assisted with extensive battery life thanks to a slim charging case.",
+                "The NexusCam is an HD security camera with night vision, smart motion detection, cloud storage, and AI-enabled alerts. Most commendable are its weather resistance and ease of installation.",
+                "The NexusCharger is an extreme heavy-capacity, multi-device charging station, now with wireless fast charging for all of your devices, customized lighting, and energy-saving mode that optimizes power usage at either your house or office.",
+                "The NexusScooter has long-life batteries and a strong body, this high-power electric scooter comes with digital displays showing speed, adjustable speed, and integrated GPS.",
+                "The NexusTracker is a high-class fitness tracker with body composition analysis, real health-time monitoring, and personalized workout planning-housed in these models with waterproof and shockproof builds, extended battery life, and bright displays.",
+                "The NexusVR is an immersive VR headset boasting 4K resolution with ultra-low latency; great for hardcore gaming or critical virtual meetings. Light, it allows comfort over long wear.",
+                "The NexusWatch is a high-end wearable communicator that perfectly merges a smart watch with high-class communications, offering a person the capability of staying connected through seamless calls, texts, and application integrations; this is presented with a holographic display and a voice-activated AI assistant."
+            ];
+            const factElement = document.getElementById('fact');
+            const randomFact = facts[Math.floor(Math.random() * facts.length)];
+            factElement.textContent = randomFact;
+        });
+    </script>
 </body>
-</html>
+</html
