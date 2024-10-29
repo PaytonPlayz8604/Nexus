@@ -13,7 +13,7 @@
         <i class="fa fa-cogs fa-5x" style="color: #00aaff;"></i>
         <h1>Site Maintenance</h1>
         <p>We're working on improvements. Please check back soon.</p>
-        <div id="countdown"></div>
+        <div id="countdown"><i class="fa fa-hourglass-half"></i> <span id="time"></span></div>
         <p>&mdash; The Nexus Team</p>
     </main>
     <footer>
@@ -22,7 +22,11 @@
     <script src="Scripts/script.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            let countdownDate = new Date();
+            // Set the start time to 11 PM EST
+            const startTime = new Date('October 30, 2024 23:00:00 EST');
+
+            // Calculate the end time 2 weeks from the start time
+            let countdownDate = new Date(startTime);
             countdownDate.setDate(countdownDate.getDate() + 14);
 
             function updateCountdown() {
@@ -34,11 +38,11 @@
                 let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                 let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-                document.getElementById("countdown").innerHTML = 
-                    days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                document.getElementById("time").innerHTML = 
+                    days + " day(s) " + hours + " hour(s) " + minutes + " minute(s) " + seconds + " second(s) ";
 
                 if (distance < 0) {
-                    document.getElementById("countdown").innerHTML = "Maintenance completed!";
+                    document.getElementById("time").innerHTML = "Maintenance completed!";
                 }
             }
 
