@@ -10,16 +10,40 @@
 </head>
 <body>
     <main class="maintenance">
-        <i class="fa fa-cogs fa-5x"></i>
-        <h1>Upgrading Your Experience</h1>
-        <p>We are currently performing maintenance to bring you an enhanced Nexus experience. We'll be back online shortly!</p>
+        <i class="fa fa-cogs fa-5x" style="color: #00aaff;"></i>
+        <h1>Site Maintenance</h1>
+        <p>We're working on improvements. Please check back soon.</p>
+        <div id="countdown"></div>
         <p>&mdash; The Nexus Team</p>
     </main>
-
     <footer>
         <p>&copy; 2024 Nexus. All rights reserved.</p>
     </footer>
-
     <script src="Scripts/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            let countdownDate = new Date();
+            countdownDate.setDate(countdownDate.getDate() + 14);
+
+            function updateCountdown() {
+                let now = new Date().getTime();
+                let distance = countdownDate - now;
+
+                let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById("countdown").innerHTML = 
+                    days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+                if (distance < 0) {
+                    document.getElementById("countdown").innerHTML = "Maintenance completed!";
+                }
+            }
+
+            setInterval(updateCountdown, 1000);
+        });
+    </script>
 </body>
 </html>
