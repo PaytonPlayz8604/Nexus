@@ -63,7 +63,7 @@ nav ul ul {
     list-style: none;
     text-align: left;
     border-radius: 5px;
-    min-width: 150px;
+    min-width: 200px; /* Increase the width of the dropdown */
     z-index: 1000;
 }
 
