@@ -157,12 +157,6 @@ a:hover {
     background-color: #0088cc;
 }
 
-.product-info .btn::after {
-    content: " \f061"; /* FontAwesome arrow icon */
-    font-family: 'FontAwesome';
-    padding-left: 10px;
-}
-
 main {
     flex: 1;
     display: flex;
