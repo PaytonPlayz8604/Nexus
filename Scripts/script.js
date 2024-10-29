@@ -15,7 +15,7 @@ console.log(
     ╔═════════════════════════════════════════════════════════╗
     ║                                                         ║
     ║   Thank you for visiting the Nexus site!                ║
-    ║   We kindly ask you not to paste or copy our code.      ║
+    ║   We kindly ask you not to copy our code.               ║
     ║                                                         ║
     ║                Enjoy your stay!                         ║
     ║                      — The Nexus Team                   ║
