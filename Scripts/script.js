@@ -25,7 +25,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-
 /* Property Console Log */
 console.log(
     `%c
