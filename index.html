@@ -53,26 +53,6 @@
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </section>
     </main>
-
-    <script>
-        /* Slideshow on index.html */
-        let slideIndex = 1;
-        showSlides(slideIndex);
-
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-
-        function showSlides(n) {
-            let slides = document.querySelectorAll(".mySlides");
-            if (n > slides.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = slides.length }
-            for (let i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            slides[slideIndex - 1].style.display = "block";
-        }
-    </script>
     <div w3-include-html="footer.html"></div>
     <script src="Scripts/script.js"></script>
 </body>
