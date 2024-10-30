@@ -108,12 +108,12 @@ a:hover {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 40px; /* Added extra margin to move products down */
+    margin-top: 0px; 
 }
 
 .product-item {
     position: relative;
-    margin: 10px;
+    margin: 20px;
     text-align: center;
     border-radius: 10px;
     overflow: hidden;
