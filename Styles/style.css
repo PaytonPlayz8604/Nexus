@@ -81,8 +81,12 @@ nav ul ul li a:hover {
     background-color: #ffffff;
 }
 
-h1, p {
+h1 {
     color: #000000;
+}
+
+p {
+    color: #070707a8;
 }
 
 a {
