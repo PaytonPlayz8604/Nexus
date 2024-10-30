@@ -34,19 +34,17 @@ function plusSlides(n) {
 
 function showSlides(n) {
     let slides = document.querySelectorAll(".mySlides");
-    if (n > slides.length) { slideIndex = 1 }
-    if (n < 1) { slideIndex = slides.length }
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
     for (let i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
-
     slides[slideIndex - 1].style.display = "block";
 }
 
 /* Property Console Log */
 console.log(
-    `%c
-    ╔═════════════════════════════════════════════════════════╗
+    `%c    ╔═════════════════════════════════════════════════════════╗
     ║                                                         ║
     ║   Thank you for visiting the Nexus site!                ║
     ║   We kindly ask you not to copy our code.               ║
