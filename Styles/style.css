@@ -127,7 +127,7 @@ a:hover {
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #00aaff;
+    background-color: rgba(0, 0, 0, 0.5);
     color: #ffffff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -136,7 +136,7 @@ a:hover {
 }
 
 .mySlides .btn:hover {
-    background-color: #0088cc;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .prev, .next {
@@ -150,7 +150,7 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 0 3px 3px 0;
     user-select: none;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Added color transition */
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .prev {
@@ -165,7 +165,7 @@ a:hover {
 
 .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
-    color: #ffffff; /* Change text color to white on hover */
+    color: #ffffff;
 }
 
 main {
