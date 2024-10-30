@@ -50,7 +50,7 @@ console.log(
     ║   Thank you for visiting the Nexus site!                ║
     ║   We kindly ask you not to copy our code.               ║
     ║                                                         ║
-    ║                Enjoy your stay!                         ║
+    ║                Enjoy your stay! :D                      ║
     ║                      — The Nexus Team                   ║
     ║                                                         ║
     ╚═════════════════════════════════════════════════════════╝
