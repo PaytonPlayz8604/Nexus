@@ -124,19 +124,19 @@ a:hover {
 
 .mySlides .btn {
     position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.5); 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgba(0, 0, 0, 0.5);
     color: #ffffff;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-    transition: background-color 0.3s ease, color 0.3s ease; 
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .mySlides .btn:hover {
-    background-color: rgba(0, 0, 0, 0.8); 
+    background-color: rgba(0, 0, 0, 0.8);
     color: #ffffff;
 }
 
@@ -166,7 +166,7 @@ a:hover {
 
 .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
-    color: #ffffff; /* Ensure text color is white on hover */
+    color: #ffffff;
 }
 
 main {
