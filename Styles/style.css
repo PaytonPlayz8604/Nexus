@@ -107,8 +107,8 @@ a:hover {
 .slideshow-container {
     position: relative;
     margin: auto;
-    width: 80%;
-    max-width: 1000px;
+    width: 60%;  /* Adjusted width to make images smaller */
+    max-width: 800px;  /* Adjusted max-width to make images smaller */
 }
 
 .mySlides {
