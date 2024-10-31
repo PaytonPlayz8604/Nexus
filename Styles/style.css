@@ -167,30 +167,31 @@ footer {
 .stats .stat {
     text-align: center;
     flex: 1;
-    margin: 0 40px; 
+    margin: 0 40px;
 }
 
 .stats .stat i {
     font-size: 2em;
-    color: #000000 !important; 
-    margin-bottom: 20px; 
+    color: #000000 !important;
+    display: block; /* Ensure the icon is on its own line */
+    margin-bottom: 10px; /* Space between icon and text */
 }
 
 .stats .stat h3 {
     font-size: 1.5em;
-    margin-bottom: 0; 
-    display: inline-block; 
+    margin: 10px 0 0; /* Margin to push title down */
+    display: block; /* Ensure text is on its own line */
 }
 
 .stats .stat p {
     font-size: 1.2em;
-    margin: 0 0 20px; 
-    display: inline-block; 
+    margin: 10px 0 20px; /* Space between text elements */
+    display: block; /* Ensure text is on its own line */
 }
 
 /* Star Ratings */
 .checked {
-    color: #000000 !important; 
+    color: #000000 !important; /* Ensuring stars are black */
 }
 
 .stats .stat p {
@@ -200,6 +201,6 @@ footer {
 }
 
 .stats .stat p span {
-    margin: 0 5px; 
+    margin: 0 5px; /* Increased margin for more spacing between stars */
 }
 
