@@ -84,6 +84,7 @@ nav .dropdown-content li a:hover {
 .icon-links {
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
 
 .icon-links li {
@@ -130,4 +131,3 @@ footer {
     padding: 20px 0;
     width: 100%;
 }
-
