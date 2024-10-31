@@ -70,7 +70,7 @@ nav .dropdown li a {
 }
 
 nav .dropdown li a:hover {
-    color: #00aaff;
+    color: #00aaff; /* Change color to blue on hover */
 }
 
 nav .dropdown-content {
@@ -98,7 +98,7 @@ nav .dropdown-content li a {
 }
 
 nav .dropdown-content li a:hover {
-    color: #00aaff;
+    color: #00aaff; /* Change color to blue on hover */
     background-color: #ffffff;
 }
 
