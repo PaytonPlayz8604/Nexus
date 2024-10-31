@@ -22,28 +22,25 @@ header {
 }
 
 nav {
-    flex: 1;
-    text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
-nav ul {
+nav .dropdown {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
-nav ul li {
+nav .dropdown li {
     position: relative;
     margin: 0 15px;
 }
 
-nav ul li a {
+nav .dropdown li a, nav .dropdown li span {
     color: #000000;
     text-decoration: none;
     padding: 10px 15px;
@@ -51,11 +48,11 @@ nav ul li a {
     transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
+nav .dropdown li a:hover, nav .dropdown li span:hover {
     color: #00aaff;
 }
 
-nav ul ul {
+nav .dropdown-content {
     display: none;
     position: absolute;
     top: 100%;
@@ -69,29 +66,40 @@ nav ul ul {
     z-index: 1000;
 }
 
-nav ul li:hover ul {
+nav .dropdown li:hover .dropdown-content {
     display: block;
 }
 
-nav ul ul li a {
+nav .dropdown-content li a {
     color: #000000;
     padding: 10px;
     transition: color 0.3s ease;
 }
 
-nav ul ul li a:hover {
+nav .dropdown-content li a:hover {
     color: #00aaff;
     background-color: #ffffff;
 }
 
 .icon-links {
-    margin-left: auto;
     display: flex;
     align-items: center;
 }
 
 .icon-links li {
     margin: 0 10px;
+}
+
+.icon-links li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.icon-links li a:hover {
+    color: #00aaff;
 }
 
 h1, p {
@@ -122,3 +130,4 @@ footer {
     padding: 20px 0;
     width: 100%;
 }
+
