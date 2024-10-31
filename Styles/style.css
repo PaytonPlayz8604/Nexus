@@ -19,7 +19,7 @@ header {
 
 .logo img {
     height: 50px;
-    user-select: none; /* Disable text selection */
+    user-select: auto; /* Disable text selection */
     -webkit-user-drag: none; /* Disable dragging for Safari */
     -khtml-user-drag: none; /* Disable dragging for Konqueror */
     -moz-user-drag: none; /* Disable dragging for Firefox */
