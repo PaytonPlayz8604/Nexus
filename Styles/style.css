@@ -24,6 +24,9 @@ header {
 nav {
     flex: 1;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav ul {
@@ -79,6 +82,16 @@ nav ul ul li a {
 nav ul ul li a:hover {
     color: #00aaff;
     background-color: #ffffff;
+}
+
+.icon-links {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.icon-links li {
+    margin: 0 10px;
 }
 
 h1, p {
