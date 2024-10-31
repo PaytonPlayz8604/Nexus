@@ -194,7 +194,7 @@ footer {
 /* Stats Section */
 .stats {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     padding: 50px 20px;
     background-color: #ffffff;
 }
@@ -202,12 +202,12 @@ footer {
 .stats .stat {
     text-align: center;
     flex: 1;
-    margin: 0 20px; /
+    margin: 0 20px;
 }
 
 .stats .stat i {
     font-size: 2em;
-    color: #000000; 
+    color: #000000;
     margin-bottom: 10px;
 }
 
@@ -219,5 +219,21 @@ footer {
 .stats .stat p {
     font-size: 1.2em;
 }
+
+/* Star Ratings */
+.checked {
+    color: #000000;
+}
+
+.stats .stat p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stats .stat p span {
+    margin: 0 2px;
+}
+
 
 
