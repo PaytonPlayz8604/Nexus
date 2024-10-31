@@ -22,6 +22,11 @@
             background-color: #ffffff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        .login-box .fa-lock {
+            font-size: 2em;
+            color: #00aaff;
+            margin-bottom: 20px;
+        }
         .login-box input[type="text"], .login-box input[type="password"] {
             width: 100%;
             padding: 10px;
@@ -29,14 +34,6 @@
             border: 1px solid #cccccc;
             border-radius: 5px;
             font-size: 1em;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .login-box .input-icon {
-            position: absolute;
-            margin-left: -30px;
-            color: #cccccc;
         }
         .login-box button {
             background-color: #00aaff;
@@ -69,6 +66,9 @@
         .login-box .google-login:hover {
             background-color: #c33d2e;
         }
+        .signup-link {
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -76,18 +76,16 @@
     <div w3-include-html="navigation.html"></div>
     <main class="login-container">
         <div class="login-box">
+            <i class="fa fa-lock"></i>
             <h1>Login</h1>
-            <div class="input-container">
-                <i class="fa fa-user input-icon"></i>
-                <input type="text" placeholder="Username">
-            </div>
-            <div class="input-container">
-                <i class="fa fa-lock input-icon"></i>
-                <input type="password" placeholder="Password">
-            </div>
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
             <button>Login</button>
             <div class="google-login">
                 <i class="fa fa-google"></i> Login with Google
+            </div>
+            <div class="signup-link">
+                <p>Don't have an account? <a href="register.html">Sign up here</a></p>
             </div>
         </div>
     </main>
