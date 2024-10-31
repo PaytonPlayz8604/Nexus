@@ -28,8 +28,6 @@ header {
     pointer-events: none; /* Disable copying/pasting */
 }
 
-}
-
 nav {
     flex: 1;
     display: flex;
@@ -60,7 +58,7 @@ nav .dropdown li span {
 }
 
 nav .dropdown li span:hover {
-    color: #000000; 
+    color: #00aaff;
 }
 
 nav .dropdown li a {
@@ -112,7 +110,7 @@ nav .dropdown-content li a:hover {
 }
 
 .icon-links li {
-    margin: 0 5px; 
+    margin: 0 10px; 
 }
 
 .icon-links li a {
@@ -121,7 +119,7 @@ nav .dropdown-content li a:hover {
     padding: 10px 15px;
     display: block;
     transition: color 0.3s ease;
-    font-size: 1.2em;
+    font-size: 1em; 
 }
 
 .icon-links li a:hover {
@@ -152,7 +150,4 @@ main {
 footer {
     background-color: #ffffff;
     color: #000000;
-    text-align: center;
-    padding: 20px 0;
-    width: 100%;
-}
+    text
