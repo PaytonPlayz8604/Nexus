@@ -29,6 +29,14 @@
             border: 1px solid #cccccc;
             border-radius: 5px;
             font-size: 1em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .login-box .input-icon {
+            position: absolute;
+            margin-left: -30px;
+            color: #cccccc;
         }
         .login-box button {
             background-color: #00aaff;
@@ -43,6 +51,24 @@
         .login-box button:hover {
             background-color: #0088cc;
         }
+        .login-box .google-login {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #db4437;
+            color: #ffffff;
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .login-box .google-login i {
+            margin-right: 10px;
+        }
+        .login-box .google-login:hover {
+            background-color: #c33d2e;
+        }
     </style>
 </head>
 <body>
@@ -51,9 +77,18 @@
     <main class="login-container">
         <div class="login-box">
             <h1>Login</h1>
-            <input type="text" placeholder="Username">
-            <input type="password" placeholder="Password">
+            <div class="input-container">
+                <i class="fa fa-user input-icon"></i>
+                <input type="text" placeholder="Username">
+            </div>
+            <div class="input-container">
+                <i class="fa fa-lock input-icon"></i>
+                <input type="password" placeholder="Password">
+            </div>
             <button>Login</button>
+            <div class="google-login">
+                <i class="fa fa-google"></i> Login with Google
+            </div>
         </div>
     </main>
     <div w3-include-html="footer.html"></div>
