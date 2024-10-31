@@ -86,6 +86,8 @@ nav .dropdown-content li a:hover {
 .icon-links {
     display: flex;
     align-items: center;
+    margin-left: auto;
+    list-style: none; /* Remove bullet points */
 }
 
 .icon-links li {
