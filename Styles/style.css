@@ -165,13 +165,13 @@ footer {
 }
 
 .stats .stat {
-    text-align: center;
+    text-align: left; 
     flex: 1;
     margin: 0 40px;
 }
 
 .stats .stat i {
-    font-size: 2em;
+    font-size: 2.5em; 
     color: #000000 !important;
     display: block;
     margin-bottom: 10px;
@@ -197,10 +197,11 @@ footer {
 .stats .stat p {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start; 
     margin: 0; 
 }
 
 .stats .stat p span {
     margin: 0 5px;
 }
+
