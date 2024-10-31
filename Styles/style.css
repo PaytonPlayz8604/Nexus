@@ -150,4 +150,7 @@ main {
 footer {
     background-color: #ffffff;
     color: #000000;
-    text
+    text-align: center; 
+    padding: 20px 0; 
+    width: 100%;
+}
