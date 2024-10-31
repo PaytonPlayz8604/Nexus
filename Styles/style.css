@@ -154,3 +154,67 @@ footer {
     padding: 20px 0;
     width: 100%;
 }
+
+/* Intro Section */
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.intro .boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.intro .box {
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.intro .box:hover {
+    transform: translateY(-10px);
+}
+
+/* How We Work Section */
+.how-we-work {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f0f0f0;
+}
+
+/* Stats Section */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.stats .stat {
+    text-align: center;
+}
+
+.stats .stat i {
+    font-size: 2em;
+    color: #00aaff;
+    margin-bottom: 10px;
+}
+
+.stats .stat h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.stats .stat p {
+    font-size: 1.2em;
+}
+
