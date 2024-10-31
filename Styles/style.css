@@ -194,27 +194,21 @@ footer {
 /* Stats Section */
 .stats {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between; /* Changed from space-around to space-between for more spacing */
     padding: 50px 20px;
     background-color: #ffffff;
 }
 
 .stats .stat {
     text-align: center;
+    flex: 1; /* Ensures that each stat has equal spacing */
+    margin: 0 20px; /* Adds extra spacing between each stat */
 }
 
 .stats .stat i {
     font-size: 2em;
-    color: #00aaff;
+    color: #000000; /* Changed color to black */
     margin-bottom: 10px;
 }
 
-.stats .stat h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-.stats .stat p {
-    font-size: 1.2em;
-}
 
