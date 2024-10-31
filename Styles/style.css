@@ -70,7 +70,7 @@ nav .dropdown li a {
 }
 
 nav .dropdown li a:hover {
-    color: #00aaff; /* Change color to blue on hover */
+    color: #00aaff; 
 }
 
 nav .dropdown-content {
@@ -98,7 +98,7 @@ nav .dropdown-content li a {
 }
 
 nav .dropdown-content li a:hover {
-    color: #00aaff; /* Change color to blue on hover */
+    color: #00aaff; 
     background-color: #ffffff;
 }
 
@@ -153,35 +153,6 @@ footer {
     text-align: center;
     padding: 20px 0;
     width: 100%;
-}
-
-/* Intro Section */
-.intro {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: #ffffff;
-}
-
-.intro .boxes {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.intro .box {
-    flex: 1;
-    min-width: 200px;
-    padding: 20px;
-    border: 1px solid #000000;
-    border-radius: 5px;
-    background-color: #f8f8f8;
-    text-align: center;
-    transition: transform 0.3s ease;
-}
-
-.intro .box:hover {
-    transform: translateY(-10px);
 }
 
 /* Stats Section */
