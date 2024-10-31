@@ -42,7 +42,7 @@ nav .dropdown li {
     margin: 0 15px;
 }
 
-nav .dropdown li a, nav .dropdown li span {
+nav .dropdown li span {
     color: #000000;
     text-decoration: none;
     padding: 10px 15px;
@@ -50,7 +50,19 @@ nav .dropdown li a, nav .dropdown li span {
     transition: color 0.3s ease;
 }
 
-nav .dropdown li a:hover, nav .dropdown li span:hover {
+nav .dropdown li span:hover {
+    color: #000000; 
+}
+
+nav .dropdown li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+nav .dropdown li a:hover {
     color: #00aaff;
 }
 
@@ -87,11 +99,11 @@ nav .dropdown-content li a:hover {
     display: flex;
     align-items: center;
     margin-left: auto;
-    list-style: none; /* Remove bullet points */
+    list-style: none; 
 }
 
 .icon-links li {
-    margin: 0 10px;
+    margin: 0 5px; 
 }
 
 .icon-links li a {
@@ -100,6 +112,7 @@ nav .dropdown-content li a:hover {
     padding: 10px 15px;
     display: block;
     transition: color 0.3s ease;
+    font-size: 1.2em;
 }
 
 .icon-links li a:hover {
