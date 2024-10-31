@@ -189,11 +189,6 @@ footer {
     display: block;
 }
 
-/* Star Ratings */
-.checked {
-    color: #000000 !important;
-}
-
 .stats .stat p {
     display: flex;
     align-items: center;
@@ -201,7 +196,4 @@ footer {
     margin: 0; 
 }
 
-.stats .stat p span {
-    margin: 0 5px;
-}
 
