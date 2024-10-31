@@ -173,34 +173,34 @@ footer {
 .stats .stat i {
     font-size: 2em;
     color: #000000 !important;
-    display: block; 
-    margin-bottom: 10px; 
+    display: block;
+    margin-bottom: 10px;
+}
+
+.stats .stat .number {
+    font-size: 2em; 
+    margin: 10px 0;
+    display: block;
 }
 
 .stats .stat h3 {
-    font-size: 1.5em;
-    margin: 10px 0 0;
-    display: block; 
-}
-
-.stats .stat p {
-    font-size: 1.2em;
-    margin: 10px 0 20px;
-    display: block; 
+    font-size: 1.2em; 
+    margin: 0;
+    display: block;
 }
 
 /* Star Ratings */
 .checked {
-    color: #000000 !important; 
+    color: #000000 !important;
 }
 
 .stats .stat p {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0; 
 }
 
 .stats .stat p span {
-    margin: 0 5px; 
+    margin: 0 5px;
 }
-
