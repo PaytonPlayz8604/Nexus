@@ -341,5 +341,9 @@ main p {
     border-radius: 45px !important; 
 }
 
-
-
+/* Highlight Class */
+.highlight {
+    background-color: yellow !important;
+    color: black !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
