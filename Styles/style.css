@@ -208,32 +208,6 @@ main p {
 
 /* Call to Action */
 .call-to-action {
-    text-align: center;
-    margin: 20px 0;
-}
-
-.call-to-action button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #00aaff;
-    color: #ffffff;
-    font-size: 1.2em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.call-to-action button:hover {
-    background-color: #0077cc;
-}
-
-/* Stats Section */
-.stats .stat .number {
-    text-align: left; /* Ensure the numbers align to the left */
-}
-
-/* Call to Action */
-.call-to-action {
     text-align: center !important;
     margin: 20px 0 !important;
 }
@@ -257,10 +231,37 @@ main p {
     color: #00aaff !important;
 }
 
+/* Graphics */
+.graphics {
+    text-align: center !important;
+    margin: 20px 0 !important;
+}
 
-/* Stats Section */
-.stats .stat .number {
-    text-align: left !important; /* Ensure the numbers align to the left */
+.graphics .graphic {
+    width: 45% !important;
+    margin: 0 2.5% !important;
+    transition: transform 0.3s ease !important;
+}
+
+.graphics .graphic:hover {
+    transform: scale(1.05) !important;
+}
+
+/* Video */
+.video {
+    text-align: center !important;
+    margin: 20px 0 !important;
+}
+
+.video h2 {
+    font-size: 1.8em !important;
+    margin-bottom: 10px !important;
+}
+
+.video video {
+    width: 80% !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
 }
 
 /* Testimonials Section */
@@ -318,6 +319,34 @@ main p {
 .social-media .icons a:hover {
     color: #00aaff !important;
 }
+
+/* Contact Information */
+.contact {
+    text-align: center !important;
+    padding: 20px !important;
+    background-color: #ffffff !important;
+    margin: 20px 0 !important;
+}
+
+.contact h2 {
+    font-size: 1.8em !important;
+    margin-bottom: 10px !important;
+}
+
+.contact p {
+    font-size: 1.2em !important;
+    margin: 5px 0 !important;
+}
+
+.contact a {
+    color: #00aaff !important;
+    transition: color 0.3s ease !important;
+}
+
+.contact a:hover {
+    color: #0077cc !important;
+}
+
 
 
 
