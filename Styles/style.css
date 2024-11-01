@@ -181,6 +181,7 @@ footer {
     font-size: 2em; 
     margin: 10px 0;
     display: block;
+    text-align: left;
 }
 
 .stats .stat h3 {
@@ -205,6 +206,87 @@ main p {
     text-align: center;
 }
 
+/* Call to Action */
+.call-to-action {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.call-to-action button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00aaff;
+    color: #ffffff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.call-to-action button:hover {
+    background-color: #0077cc;
+}
+
+/* Stats Section */
+.stats .stat .number {
+    text-align: left; /* Ensure the numbers align to the left */
+}
+
+/* Testimonials Section */
+.testimonials {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.testimonials h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.testimonials blockquote {
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.testimonials cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555555;
+}
+
+/* Social Media Icons */
+.social-media {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px 0;
+}
+
+.social-media h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.social-media .icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-media .icons a {
+    font-size: 2em;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+.social-media .icons a:hover {
+    color: #00aaff;
+}
 
 
 
