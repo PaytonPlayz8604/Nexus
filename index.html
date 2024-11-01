@@ -33,10 +33,28 @@
                 <h3>Products Sold</h3>
             </div>
         </section>
+
+        <!-- Feedback Form Section -->
+        <section class="feedback">
+            <h2>Send Us Your Feedback</h2>
+            <form id="feedback-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
     </main>
 
     <!-- Include Footer -->
     <div w3-include-html="footer.html"></div>
     <script src="Scripts/script.js"></script>
+    <script src="Scripts/feedback.js"></script>
 </body>
 </html>
