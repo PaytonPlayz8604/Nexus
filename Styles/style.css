@@ -282,6 +282,26 @@ main p {
     font-size: 1.2em !important;
     margin: 10px 0 !important;
     font-style: italic !important;
+    position: relative !important;
+    padding: 0 1em !important;
+    display: inline-block !important;
+}
+
+.testimonials blockquote .fa-quote-left,
+.testimonials blockquote .fa-quote-right {
+    color: #00aaff !important;
+    font-size: 1.5em !important;
+    position: absolute !important;
+}
+
+.testimonials blockquote .fa-quote-left {
+    top: -10px !important;
+    left: -10px !important;
+}
+
+.testimonials blockquote .fa-quote-right {
+    bottom: -10px !important;
+    right: -10px !important;
 }
 
 .testimonials cite {
@@ -290,6 +310,11 @@ main p {
     font-size: 1em !important;
     color: #555555 !important;
 }
+
+.testimonials cite .fa-smile {
+    color: #ffcc00 !important;
+}
+
 
 /* Social Media Icons */
 .social-media {
