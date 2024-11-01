@@ -238,20 +238,25 @@ main p {
     margin: 20px 0 !important;
 }
 
-.call-to-action button {
-    padding: 10px 20px !important;
-    border: none !important;
-    border-radius: 5px !important;
+.call-to-action .shop-now {
+    padding: 15px 30px !important;
+    border: 2px solid #00aaff !important;
+    border-radius: 25px !important;
     background-color: #00aaff !important;
     color: #ffffff !important;
     font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
     cursor: pointer !important;
-    transition: background-color 0.3s ease !important;
+    transition: background-color 0.3s ease, color 0.3s ease !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
 }
 
-.call-to-action button:hover {
-    background-color: #0077cc !important;
+.call-to-action .shop-now:hover {
+    background-color: #ffffff !important;
+    color: #00aaff !important;
 }
+
 
 /* Stats Section */
 .stats .stat .number {
