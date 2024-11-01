@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
     const products = [
-        "Nexus Watch", 
-        "Nexus VR", 
-        "Nexus Buds", 
-        "Nexus Charger", 
-        "Nexus Tracker", 
-        "Nexus Scooter", 
-        "Nexus Cam"
+        { name: "Nexus Watch", url: "nexuswatch.html" },
+        { name: "Nexus VR", url: "nexusvr.html" },
+        { name: "Nexus Buds", url: "nexusbuds.html" },
+        { name: "Nexus Charger", url: "nexuscharger.html" },
+        { name: "Nexus Tracker", url: "nexustracker.html" },
+        { name: "Nexus Scooter", url: "nexusscooter.html" },
+        { name: "Nexus Cam", url: "nexuscam.html" }
     ];
     const ctaButton = document.getElementById('cta-button');
 
@@ -16,9 +16,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function updateCTA() {
         const randomProduct = getRandomProduct();
-        ctaButton.textContent = `Check out ${randomProduct}`;
+        ctaButton.textContent = `Shop Now`;
         ctaButton.onclick = function() {
-            location.href = 'products.html';
+            location.href = randomProduct.url;
         };
     }
 
