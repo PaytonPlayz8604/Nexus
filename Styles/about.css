@@ -151,26 +151,6 @@ section {
     margin-right: auto;
 }
 
-/* Meet the Team Section */
-.meet-the-team {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.meet-the-team .team-member {
-    text-align: center;
-}
-
-.meet-the-team .team-member img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin-bottom: 10px;
-}
-
 /* Social Media Icons Section */
 .social-media {
     text-align: center;
