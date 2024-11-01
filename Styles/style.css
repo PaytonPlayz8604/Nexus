@@ -205,42 +205,6 @@ main p {
     text-align: center;
 }
 
-/* Quote Section */
-.quote {
-    border: 1px solid #000000;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px 0;
-    text-align: center;
-    position: relative;
-    background-color: #ffffff; /* Same as page background */
-}
-
-.quote blockquote {
-    font-size: 1.5em;
-    margin: 0 0 20px 0;
-    line-height: 1.5;
-}
-
-.quote-author {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.quote-author i {
-    font-size: 2em;
-    margin-right: 10px;
-}
-
-.quote-author p {
-    margin: 0;
-}
-
-.quote-author span {
-    font-size: 0.9em;
-    color: #555555;
-}
 
 
 
