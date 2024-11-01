@@ -39,6 +39,7 @@ console.log(
     'color: #00aaff; font-weight: bold;'
 );
 
+/* Home Page Slideshow */
 let slideIndex = 0;
 showSlides();
 
@@ -53,14 +54,4 @@ function showSlides() {
     setTimeout(showSlides, 4000); // Change image every 4 seconds
 }
 
-function plusSlides(n) {
-    let slides = document.querySelectorAll('.slide');
-    slideIndex += n;
-    if (slideIndex > slides.length) {slideIndex = 1}
-    if (slideIndex < 1) {slideIndex = slides.length}
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = 'none';
-    }
-    slides[slideIndex-1].style.display = 'block';
-}
 
