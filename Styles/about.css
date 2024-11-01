@@ -1,0 +1,225 @@
+/* General Styles */
+body {
+    font-family: 'Syne', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+
+.logo img {
+    height: 50px;
+    user-select: auto;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    pointer-events: none;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .dropdown {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+nav .dropdown li {
+    position: relative;
+    margin: 0 15px;
+}
+
+nav .dropdown li span,
+nav .dropdown li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+nav .dropdown li span:hover,
+nav .dropdown li a:hover {
+    color: #00aaff;
+}
+
+nav .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    border-radius: 5px;
+    min-width: 220px;
+    z-index: 1000;
+}
+
+nav .dropdown li:hover .dropdown-content {
+    display: block;
+}
+
+.icon-links {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    list-style: none;
+}
+
+.icon-links li {
+    margin: 0 10px;
+}
+
+.icon-links li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: color 0.3s ease;
+    font-size: 1.2em !important;
+}
+
+.icon-links li a:hover {
+    color: #00aaff;
+}
+
+h1, h2, p {
+    color: #000000;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+a {
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #000000;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+/* Mission Section */
+.mission {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+/* Who We Serve Section */
+.who-we-serve {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+/* What We Offer Section */
+.what-we-offer {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+/* How We Operate Section */
+.how-we-operate {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+/* Meet the Team Section */
+.meet-the-team {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.meet-the-team .team-member {
+    text-align: center;
+}
+
+.meet-the-team .team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Social Media Icons Section */
+.social-media {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px 0;
+}
+
+.social-media h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.social-media .icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-media .icons a {
+    font-size: 2em;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+.social-media .icons a:hover {
+    color: #00aaff;
+}
