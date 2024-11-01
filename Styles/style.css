@@ -165,7 +165,7 @@ footer {
 }
 
 .stats .stat {
-    text-align: left; 
+    text-align: left !important; 
     flex: 1;
     margin: 0 40px;
 }
