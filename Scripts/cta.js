@@ -10,17 +10,21 @@ document.addEventListener('DOMContentLoaded', function() {
     ];
     const ctaButton = document.getElementById('cta-button');
 
-    function getRandomProduct() {
-        return products[Math.floor(Math.random() * products.length)];
-    }
+    if (ctaButton) {
+        function getRandomProduct() {
+            return products[Math.floor(Math.random() * products.length)];
+        }
 
-    function updateCTA() {
-        const randomProduct = getRandomProduct();
-        ctaButton.textContent = `Shop Now`;
-        ctaButton.onclick = function() {
-            location.href = randomProduct.url;
-        };
-    }
+        function updateCTA() {
+            const randomProduct = getRandomProduct();
+            ctaButton.textContent = `Shop Now`;
+            ctaButton.onclick = function() {
+                location.href = randomProduct.url;
+            };
+        }
 
-    updateCTA();
+        updateCTA();
+    } else {
+        console.error('CTA button not found.');
+    }
 });
