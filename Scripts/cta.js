@@ -1,5 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const products = ["Nexus Watch", "Nexus VR", "Nexus Buds"];
+    const products = [
+        "Nexus Watch", 
+        "Nexus VR", 
+        "Nexus Buds", 
+        "Nexus Charger", 
+        "Nexus Tracker", 
+        "Nexus Scooter", 
+        "Nexus Cam"
+    ];
     const ctaButton = document.getElementById('cta-button');
 
     function getRandomProduct() {
