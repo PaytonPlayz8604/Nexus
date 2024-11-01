@@ -197,5 +197,52 @@ footer {
     margin: 0;
 }
 
+/* Feedback Form Section */
+.feedback {
+    text-align: left;
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    width: 100%;
+}
+
+.feedback h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.feedback form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.feedback label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.feedback input,
+.feedback textarea {
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.feedback button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00aaff;
+    color: #ffffff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.feedback button:hover {
+    background-color: #0077cc;
+}
+
 
 
