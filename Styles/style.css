@@ -232,60 +232,86 @@ main p {
     text-align: left; /* Ensure the numbers align to the left */
 }
 
+/* Call to Action */
+.call-to-action {
+    text-align: center !important;
+    margin: 20px 0 !important;
+}
+
+.call-to-action button {
+    padding: 10px 20px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    background-color: #00aaff !important;
+    color: #ffffff !important;
+    font-size: 1.2em !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease !important;
+}
+
+.call-to-action button:hover {
+    background-color: #0077cc !important;
+}
+
+/* Stats Section */
+.stats .stat .number {
+    text-align: left !important; /* Ensure the numbers align to the left */
+}
+
 /* Testimonials Section */
 .testimonials {
-    text-align: center;
-    padding: 20px;
-    background-color: #f8f8f8;
-    margin: 20px 0;
-    border-radius: 5px;
+    text-align: center !important;
+    padding: 20px !important;
+    background-color: #f8f8f8 !important;
+    margin: 20px 0 !important;
+    border-radius: 5px !important;
 }
 
 .testimonials h2 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
+    font-size: 1.8em !important;
+    margin-bottom: 10px !important;
 }
 
 .testimonials blockquote {
-    font-size: 1.2em;
-    margin: 10px 0;
-    font-style: italic;
+    font-size: 1.2em !important;
+    margin: 10px 0 !important;
+    font-style: italic !important;
 }
 
 .testimonials cite {
-    display: block;
-    margin-top: 10px;
-    font-size: 1em;
-    color: #555555;
+    display: block !important;
+    margin-top: 10px !important;
+    font-size: 1em !important;
+    color: #555555 !important;
 }
 
 /* Social Media Icons */
 .social-media {
-    text-align: center;
-    padding: 20px;
-    background-color: #ffffff;
-    margin: 20px 0;
+    text-align: center !important;
+    padding: 20px !important;
+    background-color: #ffffff !important;
+    margin: 20px 0 !important;
 }
 
 .social-media h2 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
+    font-size: 1.8em !important;
+    margin-bottom: 10px !important;
 }
 
 .social-media .icons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+    display: flex !important;
+    justify-content: center !important;
+    gap: 20px !important;
 }
 
 .social-media .icons a {
-    font-size: 2em;
-    color: #000000;
-    transition: color 0.3s ease;
+    font-size: 2em !important;
+    color: #000000 !important;
+    transition: color 0.3s ease !important;
 }
 
 .social-media .icons a:hover {
-    color: #00aaff;
+    color: #00aaff !important;
 }
 
 
