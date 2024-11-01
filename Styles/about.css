@@ -139,44 +139,16 @@ footer {
     width: 100%;
 }
 
-/* Mission Section */
-.mission {
+/* Section Styles */
+section {
     padding: 20px;
-    background-color: #f8f8f8;
-    border-radius: 5px;
-    margin: 20px 0;
-}
-
-/* Who We Serve Section */
-.who-we-serve {
-    padding: 20px;
-    background-color: #f8f8f8;
-    border-radius: 5px;
-    margin: 20px 0;
-}
-
-/* What We Offer Section */
-.what-we-offer {
-    padding: 20px;
-    background-color: #f8f8f8;
-    border-radius: 5px;
-    margin: 20px 0;
-}
-
-/* How We Operate Section */
-.how-we-operate {
-    padding: 20px;
-    background-color: #f8f8f8;
+    background-color: #ffffff;  /* Same as page background */
     border-radius: 5px;
     margin: 20px 0;
 }
 
 /* Meet the Team Section */
 .meet-the-team {
-    padding: 20px;
-    background-color: #f8f8f8;
-    border-radius: 5px;
-    margin: 20px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
