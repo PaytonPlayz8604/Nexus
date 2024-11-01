@@ -197,5 +197,57 @@ footer {
     margin: 0;
 }
 
+/* Information about Nexus */
+main p {
+    margin: 20px 0;
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Quote Section */
+.quote {
+    background-color: #f8f8f8;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+.quote blockquote {
+    font-size: 1.5em;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.quote-author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.quote-author i {
+    font-size: 2em;
+    margin-right: 10px;
+}
+
+.quote-author p {
+    margin: 0;
+}
+
+.quote-author span {
+    font-size: 0.9em;
+    color: #555555;
+}
+
 
 
