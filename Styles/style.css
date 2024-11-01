@@ -320,33 +320,6 @@ main p {
     color: #00aaff !important;
 }
 
-/* Contact Information */
-.contact {
-    text-align: center !important;
-    padding: 20px !important;
-    background-color: #ffffff !important;
-    margin: 20px 0 !important;
-}
-
-.contact h2 {
-    font-size: 1.8em !important;
-    margin-bottom: 10px !important;
-}
-
-.contact p {
-    font-size: 1.2em !important;
-    margin: 5px 0 !important;
-}
-
-.contact a {
-    color: #00aaff !important;
-    transition: color 0.3s ease !important;
-}
-
-.contact a:hover {
-    color: #0077cc !important;
-}
-
 /* Slideshow */
 .slideshow {
     position: relative !important;
