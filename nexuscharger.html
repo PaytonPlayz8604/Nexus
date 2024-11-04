@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NexusCharger - Nexus</title>
-    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/products.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="icon" href="Images/NexusLogo.png" type="image/png">
 </head>
@@ -12,8 +12,40 @@
     <!-- Include Navigation -->
     <div w3-include-html="navigation.html"></div>
     <main>
-        <!-- Add Content -->
+        <!-- Product Overview Section -->
+        <section class="product-overview">
+            <h1>NexusCharger</h1>
+            <p>The powerful and efficient charger that keeps all your devices juiced up and ready to go. NexusCharger offers fast charging, compatibility, and convenience.</p>
+            <img src="Images/NexusCharger.png" alt="NexusCharger">
+        </section>
+        <!-- Features Section -->
+        <section class="product-features">
+            <h2>Features</h2>
+            <ul>
+                <li><i class="fa fa-bolt"></i> Fast Charging</li>
+                <li><i class="fa fa-plug"></i> Universal Compatibility</li>
+                <li><i class="fa fa-shield-alt"></i> Safety Features</li>
+                <li><i class="fa fa-lightbulb"></i> Energy Efficient</li>
+                <li><i class="fa fa-leaf"></i> Eco-friendly Design</li>
+            </ul>
+        </section>
+        <!-- Reviews Section -->
+        <section class="product-reviews">
+            <h2>Customer Reviews</h2>
+            <div class="review">
+                <p><i class="fa fa-star"></i> "The NexusCharger is incredibly efficient and charges my devices so quickly. Highly recommend!" - Casey D.</p>
+            </div>
+            <div class="review">
+                <p><i class="fa fa-star"></i> "Finally, a charger that works with all my devices and is super safe. Love it!" - Morgan F.</p>
+            </div>
+        </section>
+        <!-- Call to Action Section -->
+        <section class="call-to-action">
+            <p class="price">$349</p>
+            <button class="shop-now" onclick="location.href='shop.html'">Buy Now</button>
+        </section>
     </main>
+    <!-- Include Footer -->
     <div w3-include-html="footer.html"></div>
     <script src="Scripts/script.js"></script>
 </body>
