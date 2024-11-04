@@ -3,17 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Nexus</title>
-    <link rel="stylesheet" href="Styles/style.css">
-    <link rel="icon" href="Images/NexusLogo.png" type="image/png">
+    <title>Contact Nexus</title>
+    <link rel="stylesheet" href="Styles/about.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" href="Images/NexusLogo.png" type="image/png">
 </head>
 <body>
     <!-- Include Navigation -->
     <div w3-include-html="navigation.html"></div>
     <main>
-        <!-- Add Content -->
+        <!-- Headline Section -->
+        <h1>Contact Nexus</h1>
+        <!-- Contact Form Section -->
+        <section class="contact-form">
+            <h2>Get in Touch</h2>
+            <p>We would love to hear from you! Please fill out this form and we will get in touch with you shortly.</p>
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <!-- Social Media Icons Section -->
+        <section class="social-media">
+            <h2>Connect with Us</h2>
+            <div class="icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </section>
     </main>
+    <!-- Include Footer -->
     <div w3-include-html="footer.html"></div>
     <script src="Scripts/script.js"></script>
 </body>
