@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NexusTracker - Nexus</title>
-    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/products.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="icon" href="Images/NexusLogo.png" type="image/png">
 </head>
@@ -12,8 +12,41 @@
     <!-- Include Navigation -->
     <div w3-include-html="navigation.html"></div>
     <main>
-        <!-- Add Content -->
+        <!-- Product Overview Section -->
+        <section class="product-overview">
+            <h1>NexusTracker</h1>
+            <p>High-class fitness trackers with body composition analysis, real health-time monitoring, and personalized workout planning—housed in these models with waterproof and shockproof builds, extended battery life, and bright displays.</p>
+            <img src="Images/NexusTracker.png" alt="NexusTracker">
+        </section>
+        <!-- Features Section -->
+        <section class="product-features">
+            <h2>Features</h2>
+            <ul>
+                <li><i class="fa fa-heartbeat"></i> Body Composition Analysis</li>
+                <li><i class="fa fa-clock"></i> Real Health-Time Monitoring</li>
+                <li><i class="fa fa-dumbbell"></i> Personalized Workout Planning</li>
+                <li><i class="fa fa-water"></i> Waterproof and Shockproof</li>
+                <li><i class="fa fa-battery-full"></i> Extended Battery Life</li>
+                <li><i class="fa fa-sun"></i> Bright Displays</li>
+            </ul>
+        </section>
+        <!-- Reviews Section -->
+        <section class="product-reviews">
+            <h2>Customer Reviews</h2>
+            <div class="review">
+                <p><i class="fa fa-star"></i> "The NexusTracker is a game-changer for my fitness journey. The real-time monitoring and personalized workouts are fantastic!" - Taylor M.</p>
+            </div>
+            <div class="review">
+                <p><i class="fa fa-star"></i> "Durable, reliable, and incredibly useful. This tracker has everything I need to stay on top of my health goals." - Jamie R.</p>
+            </div>
+        </section>
+        <!-- Call to Action Section -->
+        <section class="call-to-action">
+            <p class="price">$199</p>
+            <button class="shop-now" onclick="location.href='shop.html'">Buy Now</button>
+        </section>
     </main>
+    <!-- Include Footer -->
     <div w3-include-html="footer.html"></div>
     <script src="Scripts/script.js"></script>
 </body>
