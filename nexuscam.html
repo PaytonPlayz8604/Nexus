@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NexusCam - Nexus</title>
-    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/products.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="icon" href="Images/NexusLogo.png" type="image/png">
 </head>
@@ -12,8 +12,42 @@
     <!-- Include Navigation -->
     <div w3-include-html="navigation.html"></div>
     <main>
-        <!-- Add Content -->
+        <!-- Product Overview Section -->
+        <section class="product-overview">
+            <h1>NexusCam</h1>
+            <p>HD security camera with night vision, smart motion detection, cloud storage, and AI-enabled alerts. Most commendable are its weather resistance and ease of installation.</p>
+            <img src="Images/NexusCam.png" alt="NexusCam">
+        </section>
+        <!-- Features Section -->
+        <section class="product-features">
+            <h2>Features</h2>
+            <ul>
+                <li><i class="fa fa-video"></i> HD Video Quality</li>
+                <li><i class="fa fa-moon"></i> Night Vision</li>
+                <li><i class="fa fa-bell"></i> Smart Motion Detection</li>
+                <li><i class="fa fa-cloud"></i> Cloud Storage</li>
+                <li><i class="fa fa-brain"></i> AI-enabled Alerts</li>
+                <li><i class="fa fa-cloud-sun"></i> Weather Resistant</li>
+                <li><i class="fa fa-wrench"></i> Easy Installation</li>
+            </ul>
+        </section>
+        <!-- Reviews Section -->
+        <section class="product-reviews">
+            <h2>Customer Reviews</h2>
+            <div class="review">
+                <p><i class="fa fa-star"></i> "NexusCam is exactly what I needed for home security. The night vision and AI alerts are top-notch." - Jordan M.</p>
+            </div>
+            <div class="review">
+                <p><i class="fa fa-star"></i> "Easy to set up and great quality video. The weather resistance is perfect for my outdoor setup." - Taylor C.</p>
+            </div>
+        </section>
+        <!-- Call to Action Section -->
+        <section class="call-to-action">
+            <p class="price">$199</p>
+            <button class="shop-now" onclick="location.href='shop.html'">Buy Now</button>
+        </section>
     </main>
+    <!-- Include Footer -->
     <div w3-include-html="footer.html"></div>
     <script src="Scripts/script.js"></script>
 </body>
