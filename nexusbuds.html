@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NexusBuds - Nexus</title>
-    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/products.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="icon" href="Images/NexusLogo.png" type="image/png">
 </head>
@@ -12,8 +12,40 @@
     <!-- Include Navigation -->
     <div w3-include-html="navigation.html"></div>
     <main>
-        <!-- Add Content -->
+        <!-- Product Overview Section -->
+        <section class="product-overview">
+            <h1>NexusBuds</h1>
+            <p>Long-lasting, comfort engineered, wireless premium earbuds with active noise cancelation and touch controls, assisted with extensive battery life thanks to a slim charging case.</p>
+            <img src="Images/NexusBuds.png" alt="NexusBuds">
+        </section>
+        <!-- Features Section -->
+        <section class="product-features">
+            <h2>Features</h2>
+            <ul>
+                <li><i class="fa fa-volume-up"></i> Active Noise Cancelation</li>
+                <li><i class="fa fa-hand-pointer"></i> Touch Controls</li>
+                <li><i class="fa fa-battery-full"></i> Long Battery Life</li>
+                <li><i class="fa fa-charging-station"></i> Slim Charging Case</li>
+                <li><i class="fa fa-headphones"></i> Premium Sound Quality</li>
+            </ul>
+        </section>
+        <!-- Reviews Section -->
+        <section class="product-reviews">
+            <h2>Customer Reviews</h2>
+            <div class="review">
+                <p><i class="fa fa-star"></i> "NexusBuds have the best sound quality and noise cancelation I've ever experienced in earbuds!" - Riley S.</p>
+            </div>
+            <div class="review">
+                <p><i class="fa fa-star"></i> "Comfortable, great battery life, and the touch controls are so convenient. Love these earbuds!" - Avery T.</p>
+            </div>
+        </section>
+        <!-- Call to Action Section -->
+        <section class="call-to-action">
+            <p class="price">$149</p>
+            <button class="shop-now" onclick="location.href='shop.html'">Buy Now</button>
+        </section>
     </main>
+    <!-- Include Footer -->
     <div w3-include-html="footer.html"></div>
     <script src="Scripts/script.js"></script>
 </body>
