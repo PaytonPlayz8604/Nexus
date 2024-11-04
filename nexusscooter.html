@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NexusScooter - Nexus</title>
-    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/products.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="icon" href="Images/NexusLogo.png" type="image/png">
 </head>
@@ -12,8 +12,40 @@
     <!-- Include Navigation -->
     <div w3-include-html="navigation.html"></div>
     <main>
-        <!-- Add Content  -->
+        <!-- Product Overview Section -->
+        <section class="product-overview">
+            <h1>NexusScooter</h1>
+            <p>With its impressively designed long-life batteries and strong body, this high-power electric scooter comes with digital displays showing speed, adjustable speed, and integrated GPS.</p>
+            <img src="Images/NexusScooter.png" alt="NexusScooter">
+        </section>
+        <!-- Features Section -->
+        <section class="product-features">
+            <h2>Features</h2>
+            <ul>
+                <li><i class="fa fa-battery-three-quarters"></i> Long-Life Batteries</li>
+                <li><i class="fa fa-shield-alt"></i> Strong and Durable Body</li>
+                <li><i class="fa fa-tachometer-alt"></i> Digital Speed Displays</li>
+                <li><i class="fa fa-tachometer-alt"></i> Adjustable Speed</li>
+                <li><i class="fa fa-map-marker-alt"></i> Integrated GPS</li>
+            </ul>
+        </section>
+        <!-- Reviews Section -->
+        <section class="product-reviews">
+            <h2>Customer Reviews</h2>
+            <div class="review">
+                <p><i class="fa fa-star"></i> "The NexusScooter is incredible! It’s powerful, and the integrated GPS is a game-changer." - Taylor W.</p>
+            </div>
+            <div class="review">
+                <p><i class="fa fa-star"></i> "Amazing build quality and battery life. Perfect for my daily commutes." - Casey B.</p>
+            </div>
+        </section>
+        <!-- Call to Action Section -->
+        <section class="call-to-action">
+            <p class="price">$799</p>
+            <button class="shop-now" onclick="location.href='shop.html'">Buy Now</button>
+        </section>
     </main>
+    <!-- Include Footer -->
     <div w3-include-html="footer.html"></div>
     <script src="Scripts/script.js"></script>
 </body>
