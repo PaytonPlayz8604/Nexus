@@ -189,12 +189,12 @@ section {
 
 .product-features li i {
     margin-right: 10px;
-    color: #00aaff;
+    color: #000000;
 }
 
 /* Product Reviews Section */
 .product-reviews .review {
-    background-color: #f8f8f8;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 5px;
     margin: 20px 0;
