@@ -10,4 +10,4 @@ This website was built using:
 - **JavaScript**
 
 ## 📅 Creation Date
-This website was developed on **[Nov 20, 2024]** as a project for one of my `Programming` classes at **Worth County High School**.
+This website was developed on **Nov 20, 2024** as a project for one of my `Programming` classes at **Worth County High School**.
