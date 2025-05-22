@@ -3,7 +3,7 @@
 ## 📌 Overview
 Nexus is a mock business website, that was designed to show a range of technology products that improve daily life.
 
-## 🛠️ Languages Used
+## 💻 Languages Used
 This website was built using:
 - **HTML**
 - **CSS**
